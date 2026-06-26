@@ -12,3 +12,6 @@ dist/
 *.egg-info/
 .coverage
 htmlcov/
+
+# Backtest SQLite is a derived artifact; results.jsonl is the source of truth.
+data/backtests/results.db
